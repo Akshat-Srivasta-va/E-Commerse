@@ -1,45 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Fashora</title>
+    <title>Earthy Eats</title>
     <link rel="stylesheet" href="css/styles.css">
-   <!-- Boxicon -->
-   <link rel="stylesheet"
-   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
- <!-- Link Swiper's CSS -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Boxicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
-<!-- navbar -->
- <header>
-    <a href="#" class="logo"><i class='bx bxs-basket'></i>Fashora</a>
-    <!-- Menu-icon -->
-    <div class="bx bx-menu" id="menu-icon"></div>   <!--three lines -->
-    <!-- Nav List -->
-    <ul class="navbar">
-        <li><a href="#home" class="home-active">Home</a></li>
-        <li><a href="#categories">Categories</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#customers">Customers</a></li>
-    </ul>
+    <!-- navbar -->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-basket'></i>Earthy Eats</a>
+        <!-- Menu-icon -->
+        <div class="bx bx-menu" id="menu-icon"></div> <!--three lines -->
+        <!-- Nav List -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+<!-- Profile -->
+        <div class="profile">
+            <img src="images/black-kurta.avif" alt="">
+            <span>Akshat</span>
+            <i class='bx bx-caret-down'></i>
+       </div>
+    </header>
 
-    <!-- Profile -->
-     <div class="profile">
- <img src="images/black-kurta.avif" alt="">
- <span>Aksh</span>
- <i class='bx bx-caret-down'></i>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+      
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide container">
+                    <div class="home-text">
+                      <span>We are Eat Earthy</span>
+                      <h1>Choose delicacy <br> the best healthy <br> salad</h1>
+                    <a href="#" class="btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                    <img src="images/home1.png" alt="">
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide container">
+                    <div class="home-text">
+                      <span>We are Eat Eirthy</span>
+                      <h1>Choose delicacy <br> the best healthy <br> salad</h1>
+                    <a href="#" class="btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                    <img src="images/home2.png" alt="">
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide container">
+                    <div class="home-text">
+                      <span>We are Fashora</span>
+                      <h1>Choose delicacy <br> the best healthy <br> salad</h1>
+                    <a href="#" class="btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                    <img src="images/home3.png" alt="">
+                </div>
 
-     </div>
-</header>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+    </section>
 
-<!-- Home -->
- <section class="home" id="home">
+<!-- Categories --> 
 
- </section>
- <!-- Link to JS -->
-<script src="main.js"></script>
+<section class="categories" id="categories">
+    <div class="heading">
+    <h1>Browse Our Hottest <br> <span>Categories</span></h1>
+    <a href="#" class="btn">See All<i class='bx bx-right-arrow-alt'></i></a>
+</div>
+<!-- Container Content -->
+ <div class="categories-container">
+    <!-- Box 1 -->
+    <div class="box">
+<img src="images/cate1.png" alt="">
+<h2>Fruits</h2>
+<span>22 Items</span>
+<i class='bx bx-right-arrow-alt'></i>
+    </div>
+       <!-- Box 2 -->
+       <div class="box">
+        <img src="images/cate2.png" alt="">
+        <h2>Vegetables</h2>
+        <span>22 Items</span>
+        <i class='bx bx-right-arrow-alt'></i>
+            </div>
+               <!-- Box 3 -->
+    <div class="box">
+        <img src="images/cate3.png" alt="">
+        <h2>Drinks</h2>
+        <span>22 Items</span>
+        <i class='bx bx-right-arrow-alt'></i>
+            </div>
+               <!-- Box 4 -->
+    <div class="box">
+        <img src="images/cate4.png" alt="">
+        <h2>Fresh Nuts</h2>
+        <span>22 Items</span>
+        <i class='bx bx-right-arrow-alt'></i>
+            </div>
+               <!-- Box 5 -->
+    <div class="box">
+        <img src="images/cate5.png" alt="">
+        <h2>Spices</h2>
+        <span>22 Items</span>
+        <i class='bx bx-right-arrow-alt'></i>
+            </div>
+
+ </div>
+</section>
+
+    <!-- Swiper JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Link to JS -->
+    <script src="main.js"></script>
 
 </body>
+
 </html>
